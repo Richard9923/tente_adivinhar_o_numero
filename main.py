@@ -29,7 +29,7 @@ def rodandoJogo(tentativaUsuario, numeroRandom):
         return "abaixo"
 
 
-# criar uma variável onde irei colocar a dificuldade, com o número de dificuldades
+# criar uma variável onde irei colocar a dificuldade, com o número de tentativas
 numeroTentativas = dificuldadeInput()
 print(f"Número de tentativas: {numeroTentativas}.")
 #numero aleotório
