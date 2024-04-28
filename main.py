@@ -20,7 +20,7 @@ def dificuldadeInput():
         return 5
 # funcao para receber o numero random e o input do jogador e fazer a comparacao
 
-def ronandoJogo(tentativaUsuario, numeroRandom):
+def rodandoJogo(tentativaUsuario, numeroRandom):
     if tentativaUsuario == numeroRandom:
         return "certo"
     elif tentativaUsuario > numeroRandom:
@@ -41,7 +41,7 @@ jogoOn = True
 while jogoOn == True:
     print(f"Restam: {numeroTentativas}. ")
     tentativa = int(input(f"Tente adivinhar o número aleotório de 0 a 100."))
-    resultadoJogo = ronandoJogo(tentativa, numeroAleotorio)
+    resultadoJogo = rodandoJogo(tentativa, numeroAleotorio)
 
     if resultadoJogo == "certo":
         print(f"Você acertou! Número secreto: {numeroAleotorio}.")
